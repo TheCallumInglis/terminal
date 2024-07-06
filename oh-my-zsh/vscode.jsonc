@@ -1,0 +1,7 @@
+// Modify your VSCode JSON Config with these lines to make use of the ZSH shell
+{
+    // ...
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "terminal.integrated.fontSize": 16
+    // ...
+}
