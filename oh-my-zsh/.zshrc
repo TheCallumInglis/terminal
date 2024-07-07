@@ -27,6 +27,8 @@ source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # Plugin: Syntax Highlighting
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+# Plugin: Z
+source ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-z/zsh-z.plugin.zsh
+
 # Plugins
-plugins=(
-)
+plugins=( git zsh-autosuggestions zsh-syntax-highlighting zsh-z )

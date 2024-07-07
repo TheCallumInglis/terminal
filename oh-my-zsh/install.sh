@@ -39,6 +39,11 @@ setupPlugins() {
     # git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $plugin_dir/zsh-syntax-highlighting
     brew install --quiet zsh-syntax-highlighting
 
+    # Z (First check if it exists)
+    if [ ! -d "${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-z/" ]; then
+        git clone https://github.com/agkozak/zsh-z ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-z
+    fi
+
     reload
 }
 
