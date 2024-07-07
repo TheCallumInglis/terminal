@@ -7,3 +7,4 @@ A selection of questionably useful customisations for your terminal.
 | Name | Link |
 | ---- | ---- |
 | Oh-My-Zsh | [oh-my-zsh](./oh-my-zsh/README.md) |
+| Vim | [vim](./vim/README.md) |
